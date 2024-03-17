@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SNS PROFILE</title>
+    <link href="/fontawesome-free-6.5.1-web/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="/html_ch2/css/snsporhw.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="main-container">
+
+      <!-- profile -->
+      <div class="card mb-3 p-3" >
+        <div class="row">
+          <div class="col-md-6 pt-3">
+            <div class="row g-0">
+              <div class="col-4 col-md-4">
+                <img src="/html_ch2/이미지/profile-pic.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-8 col-md-8">
+                <div class="card-body">
+                  <h4 class="card-title f-w-b">Killian Sven</h4>
+                  <p class="card-text">Front-end Designer</p>
+
+                  <div class="mb-2">
+                    <i class="c-sb fa-solid fa-location-dot"></i>
+                    <span class="c-sb">서울 마포구</span>
+                  </div>  
+                  <button class="btn btn-primary new-btn" type="submit">Contact</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6">  
+            <table class="profile-table float-md-end" style="max-width: 200px;">
+              <tr>
+                <td class="f-w-b"><p>Location</p></td>
+                <td><p>서울 마포구</p></td>
+              </tr>
+              <tr>
+                <td><p class="f-w-b">Age</p></td>
+                <td><p>90년생</p></td>
+              </tr>
+              <tr>
+                <td><p class="f-w-b">Experience</p></td>
+                <td><p>신입</p></td>
+              </tr>
+              <tr>
+                <td><p class="f-w-b">School</p></td>
+                <td><p>아이돌 출신</p></td>
+              </tr>
+            </table>
+          </div>
+        </div>  
+      </div>
+
+      <!-- progress bar -->
+      <div class="mb-4">
+        <h3 class="c-sb">profile</h3>
+        <br>
+        <progress value="0.2" class="pseudo"></progress>
+
+        <style>
+          progress{
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: white;
+            color:red;
+          }
+          progress::-webkit-progress-bar{
+            background-color: #eee;
+            height: 5px;
+            width: 80vw;
+          }
+
+          progress::-webkit-progress-value{
+            background-color: #6fbaf8;
+          }
+          
+        </style>
+
+      
+      <div class="row">
+        <!-- Works -->
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title f-w-b mb-4">WORKS</h5>
+              <div class="mb-3">
+                <h6>Landing page design</h6>
+                <h6>Flyer design</h6>
+                <h6>Vue js To-do app</h6>
+                <h6>Shopping page design</h6>
+              </div>  
+            </div>
+          </div>
+        </div>
+
+        <!-- about/skills -->
+        <div class="col-md-6 mb-4">
+          <div class="card" style="height: 25rem;">
+            <div class="card-body">
+              <h5 class="card-title f-w-b mb-4">ABOUT</h5>
+              <p class="card-text mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates culpa quis quo necessitatibus quibusdam nobis adipisci porro dolor fugit odio deserunt quaerat ab molestiae, magnam quisquam tenetur unde libero alias.</p>
+              <hr>
+              <h5 class="f-w-b mb-2">SKILLS</h5>
+              <span class="badge text-bg-secondary">HTML5</span>
+              <span class="badge text-bg-secondary">JavaScript</span>
+              <span class="badge text-bg-secondary">CSS</span>
+              <span class="badge text-bg-secondary">Illustrator</span>
+              <span class="badge text-bg-secondary">Photoshop</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- fire icon and friend -->
+        <div class="col-md-3"> 
+          <!-- fire icon -->
+          <div class="card mb-3">
+            <div class="card-body" style="text-align: center;">
+              <i class="mt-3 mb-2 fa-solid fa-fire-flame-simple fire-icon"></i>
+              <h6>Find me at Linkedout.com</h6>
+              <button type="button" class="btn btn-primary new-btn mt-2">Primary</button>
+              <br>
+              <a href="#">Already a member?</a>
+            </div>
+          </div>
+
+          <!-- friend -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <h5 class="mt-3 ms-2 f-w-b">People you might know.</h5>
+            <hr>
+            <div class="row g-0">
+              <div class="col-md-4 pt-md-4 ">
+                <img src="/html_ch2/이미지/profile-pic.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8 ">
+                <div class="card-body">
+                  <h5 class="card-title">김동산</h5>
+                  <p class="card-text"><small class="text-body-secondary">developer</small></p>
+                  <div class="mb-2">
+                    <i class="c-sb fa-solid fa-location-dot"></i>
+                    <span class="c-sb">부산 반여동</span>
+                  </div> 
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-0">
+              <div class="col-md-4 pt-md-4 ">
+                <img src="/html_ch2/이미지/profile-pic.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8 ">
+                <div class="card-body">
+                  <h5 class="card-title">김동산</h5>
+                  <p class="card-text"><small class="text-body-secondary">developer</small></p>
+                  <div class="mb-2">
+                    <i class="c-sb fa-solid fa-location-dot"></i>
+                    <span class="c-sb">부산 반여동</span>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>  
+    </div>
+
+
+        
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
