@@ -3,6 +3,9 @@
 [demo](https://pvvng.github.io/test_map)
 
 ### Kakao Map Api 사용
+## Main Function
+user의 실시간 이동 측정하여 지도에 그려내기. (Nike Running 앱 같이)
+
 
 ## 현재 실시간 location 얻는 방법
 
