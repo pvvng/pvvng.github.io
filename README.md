@@ -2,7 +2,7 @@
 
 [demo](https://pvvng.github.io/test_map)
 
-## Kakao Map Api 사용
+### Kakao Map Api 사용
 
 ## 현재 실시간 location 얻는 방법
 
