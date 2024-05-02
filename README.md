@@ -2,6 +2,8 @@
 
 [demo](https://pvvng.github.io/test_map)
 
+## Kakao Map Api 사용
+
 ## 현재 실시간 location 얻는 방법
 
 App.js 페이지에서 useWatchLocation Hook을 사용하여 현재 위치 좌표를 받아온다.
